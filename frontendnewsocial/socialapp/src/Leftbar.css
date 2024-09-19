@@ -1,0 +1,72 @@
+/* Leftbar.css */
+.leftbar {
+   flex: 3.5;
+   padding: 20px;
+   height: calc(100vh - 50px);
+   background-color: #f0f2f5;
+   position: sticky;
+   top: 50px;
+ }
+ 
+ .leftbarcover {
+   padding: 20px;
+ }
+ 
+ .leftbarlist {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .leftbaritems {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+ .sidebarIcon {
+   margin-right: 10px;
+ }
+ 
+ .sidebarListItemText {
+   font-weight: 500;
+ }
+ 
+ .leftbarbutton {
+   width: 100%;
+   padding: 10px;
+   background-color: green;
+   border: none;
+   color: white;
+   cursor: pointer;
+   border-radius: 5px;
+ }
+ 
+ .leftbarhr {
+   margin: 20px 0;
+ }
+ 
+ .leftbarfriendlist {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ .leftbarfriend {
+   display: flex;
+   align-items: center;
+   margin-bottom: 15px;
+ }
+ 
+ .leftbarfriendimg {
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-right: 10px;
+ }
+ 
+ .sidebarFriendName {
+   font-weight: 500;
+ }
+ 

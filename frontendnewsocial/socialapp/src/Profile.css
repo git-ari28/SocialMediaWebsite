@@ -1,0 +1,64 @@
+  /* General styling for profile page layout */
+  .profile {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Leftbar and Rightbar styles */
+.profileright {
+    flex: 9; /* This ensures that the main content area takes most of the space */
+}
+
+.profilerighttop {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilecover {
+    position: relative;
+    height: 320px;
+}
+
+.profilecoverimage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileuserimage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    border: 3px solid white;
+}
+
+.profileinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.profileinfoname {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profileinfodesc {
+    font-size: 16px;
+    color: gray;
+    margin-top: 10px;
+}
+
+/* The bottom part which includes Feeds and Rightbar */
+.profilerightbottom {
+    display: flex;
+    margin-top: 20px;
+}
